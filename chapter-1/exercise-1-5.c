@@ -6,7 +6,7 @@ int main(){
     double fahrenheit, celcius;
 
     for (celcius = -10; celcius <= 100; celcius += 10){
-        fahrenheit = celcius * 9/5 + 32;
+        fahrenheit = celcius * 9.0/5 + 32;
         printf("%6.1f %6.1f \n", fahrenheit,celcius);
     }
 }
